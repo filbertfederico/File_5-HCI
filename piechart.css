@@ -14,7 +14,7 @@ body {
 
 nav{
     background-color: rgba(0,0,0,0.8);
-    padding: 1rem;
+    padding: 2rem;
     position: fixed;
     width: 100%;
     margin-top: -670px;
@@ -23,7 +23,7 @@ nav{
 
 .yellow{
     color: yellow;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 #my-pie-chart-container {
