@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    background-color: #bdc3c7;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-left:2rem;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.8);
+    padding: 1.5rem;
+    position: fixed;
+    width: 100%;
+    margin-top: -450px;
+    z-index: 100;
+}
+
+.yellow{
+    color: yellow;
+    font-size: 30px;
+}
+
+#my-pie-chart-container {
+    display: flex;
+    align-items: center;
+}
+
+#my-pie-chart {
+    background: conic-gradient(blue 00.00% 23.7%, green 23.8% 78.3%, yellow 78.4% 96.8%, red 96.9%);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#legenda {
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px;
+}
+
+.entry {
+    display: flex;
+    align-items: center;
+}
+
+.entry-color {
+    height: 10px;
+    width: 10px;
+}
+
+.entry-text {
+    margin-left: 5px;
+}
+
+#color-red {
+    background-color: red;
+}
+
+#color-yellow {
+    background-color: yellow;
+}  
+#color-green {
+    background-color: green;
+}
+
+#color-blue {
+    background-color: blue;
+}
