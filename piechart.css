@@ -14,16 +14,16 @@ body {
 
 nav{
     background-color: rgba(0,0,0,0.8);
-    padding: 1.5rem;
+    padding: 1rem;
     position: fixed;
     width: 100%;
-    margin-top: -450px;
+    margin-top: -670px;
     z-index: 100;
 }
 
 .yellow{
     color: yellow;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #my-pie-chart-container {
@@ -71,4 +71,17 @@ nav{
 
 #color-blue {
     background-color: blue;
+}
+
+.colors{
+    margin-top: 150px;
+    animation: change-color 4s infinite;
+}
+
+@keyframes change-color {
+    0%{color:rgb(66, 133, 244);}
+    24%{color:rgb(66, 133, 244);}
+    49%{color:rgb(219, 68, 55);}
+    74%{color:rgb(244, 180, 0)}
+    100%{color:rgb(15, 157, 88)}
 }
