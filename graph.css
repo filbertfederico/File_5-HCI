@@ -84,13 +84,13 @@ h2{
     top: -1.5em;
 }
 
-.color {
+h1{
     margin-top: 150px;
     text-align: center;
     animation: change-color 4s infinite;
 }
 
-@keyframes change-color {
+@keyframes change-color{
     0%{color:rgb(66, 133, 244);}
     24%{color:rgb(66, 133, 244);}
     49%{color:rgb(219, 68, 55);}
