@@ -83,3 +83,17 @@ h2{
     right: -0.5em;
     top: -1.5em;
 }
+
+.color {
+    margin-top: 150px;
+    text-align: center;
+    animation: change-color 4s infinite;
+}
+
+@keyframes change-color {
+    0%{color:rgb(66, 133, 244);}
+    24%{color:rgb(66, 133, 244);}
+    49%{color:rgb(219, 68, 55);}
+    74%{color:rgb(244, 180, 0)}
+    100%{color:rgb(15, 157, 88)}
+}
